@@ -3,4 +3,42 @@
  * https://tailwindcss.com/docs/v4-beta#css-first-configuration
  */
 
+@import url("https://use.typekit.net/rlz3nky.css");
 @import 'tailwindcss';
+
+@theme {
+  /* Primary Colors */
+  --color-light-grey: #F0F0F0;
+  --color-medium-grey: #8F8B90;
+  --color-dark-grey: #5A5357;
+  --color-light-heather: #D0C4C5;
+  --color-dark-heather: #AB989D;
+
+  /* Supplementary Colors */
+  --color-bibs-cream: #F5EFE4;
+  --color-bibs-light-vanilla: #E3D2C0;
+  --color-bibs-chocolate: #68463E;
+  --color-bibs-light-violet: #E9E2F5;
+  --color-bibs-lilac: #E1CEDF;
+  --color-bibs-sunset: #EF785C;
+  --color-bibs-light-blue: #DDE9F8;
+  --color-bibs-hush: #AAB2DB;
+  --color-bibs-peri: #7E7EBC;
+  --color-bibs-light-green: #DFEEE2;
+  --color-bibs-teal: #2B8687;
+  --color-bibs-dark-green: #22545C;
+
+  /* Navigational Colors */
+  --color-bibs-liberty-fossil-grey: #9991ae;
+  --color-bibs-night: #46566e;
+
+  /* Fonts */
+  --font-tt-commons-thin-family: "tt-commons-pro-thin", sans-serif;
+
+  --font-tt-commons-thin-weight: 100;
+  --font-tt-commons-medium-weight: 400;
+  --font-tt-commons-extra-bold-weight: 700;
+  
+  --font-tt-commons-style: normal;
+  --font-tt-commons-italic-style: italic;
+}
