@@ -1,4 +1,4 @@
-import {useNonce, Analytics} from '@shopify/hydrogen';
+import { useNonce, Analytics } from '@shopify/hydrogen';
 import {
   Links,
   Meta,
@@ -10,10 +10,10 @@ import {
 import resetStyles from '~/styles/reset.css?url';
 import appStyles from '~/styles/app.css?url';
 import tailwindCss from './styles/tailwind.css?url';
-import {PageLayout} from '~/components/PageLayout';
-import {RootLoader} from './root';
+import { PageLayout } from '~/components/PageLayout';
+import { RootLoader } from './root';
 
-export default function Layout() {
+export default function Layout () {
   const nonce = useNonce();
   const data = useRouteLoaderData<RootLoader>('root');
 
